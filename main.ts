@@ -1,0 +1,11 @@
+basic.forever(function () {
+    robotbit.rgb().showColor(neopixel.colors(NeoPixelColors.Red))
+    music.play(music.tonePlayable(131, music.beat(BeatFraction.Whole)), music.PlaybackMode.UntilDone)
+    basic.pause(1000)
+    robotbit.rgb().showColor(neopixel.colors(NeoPixelColors.Blue))
+    music.play(music.tonePlayable(147, music.beat(BeatFraction.Whole)), music.PlaybackMode.UntilDone)
+    basic.pause(1000)
+    robotbit.rgb().showColor(neopixel.colors(NeoPixelColors.Yellow))
+    music.play(music.tonePlayable(165, music.beat(BeatFraction.Whole)), music.PlaybackMode.UntilDone)
+    basic.pause(1000)
+})
